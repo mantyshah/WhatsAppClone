@@ -79,7 +79,7 @@
                     android:id="@+id/videoButton"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_toEndOf="@id/chatNamesLayout"
+                    android:layout_toEndOf="@id/callButton"
                     android:src="@mipmap/ic_call_white_24dp"
                     android:background="?android:selectableItemBackground"
                     android:layout_marginTop="11dp"
@@ -91,16 +91,13 @@
                     android:id="@+id/callButton"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_toEndOf="@id/videoButton"
+                    android:layout_toEndOf="@id/chatNamesLayout"
                     android:src="@mipmap/ic_videocam_white_24dp"
                     android:background="?android:selectableItemBackground"
                     android:layout_marginTop="11dp"
                     android:contentDescription="@string/type_a_message"
                     android:layout_marginStart="15dp"
                     />
-
-
-
             </RelativeLayout>
         </android.support.v7.widget.Toolbar>
 
