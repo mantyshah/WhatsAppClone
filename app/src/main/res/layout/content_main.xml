@@ -43,13 +43,13 @@
                 android:layout_marginEnd="5dp"
                 android:background="@drawable/shape_bg_outgoing_bubble"
                 android:backgroundTint="@color/primary_light"
-                android:paddingEnd="5dp"
-                android:paddingLeft="-200dp"
+                android:paddingEnd="@dimen/activity_horizontal_margin"
                 android:paddingStart="0dp"
                 android:text="@string/hi"
                 android:textAlignment="center"
                 android:gravity="center"
-                android:textColor="@android:color/black" />
+                android:textColor="@android:color/black"
+                />
 
             <TextView
                 android:id="@+id/message_text_2"
@@ -57,7 +57,7 @@
                 android:layout_height="30dp"
                 android:text="@string/how_are_you"
                 android:textColor="@android:color/black"
-                android:paddingLeft="@dimen/activity_vertical_margin"
+                android:paddingStart="@dimen/activity_vertical_margin"
                 android:background="@drawable/shape_bg_incoming_bubble"
                 android:layout_marginStart="5dp"
                 android:layout_below="@id/message_text_1"
