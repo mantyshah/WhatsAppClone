@@ -10,6 +10,6 @@
     <string name="type_a_message">Type a message.</string>
     <string name="contactName">Contact Name</string>
     <string name="status">Status</string>
-    <string name="how_are_you">How are you?</string>
-    <string name="hi">Hi!!!</string>
+    <string name="how_are_you">Hi!! I am Fine. How are you?</string>
+    <string name="hi">Hi!! How are you?</string>
 </resources>

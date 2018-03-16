@@ -35,33 +35,32 @@
             android:paddingTop="20dp"
             android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/message_text_1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/hi"
-                    android:paddingEnd="5dp"
-                    android:paddingStart="0dp"
-                    android:layout_alignParentEnd="true"
-                    android:textColor="@android:color/black"
-                    android:background="@drawable/bubble2"
-                    android:textAlignment="center"
-                    android:paddingTop="10dp"
-                    android:backgroundTint="@color/primary_light"
-                    />
+            <TextView
+                android:id="@+id/message_text_1"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/shape_bg_outgoing_bubble"
+                android:backgroundTint="@color/primary_light"
+                android:paddingEnd="5dp"
+                android:paddingLeft="-200dp"
+                android:paddingStart="0dp"
+                android:text="@string/hi"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textColor="@android:color/black" />
 
             <TextView
                 android:id="@+id/message_text_2"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="30dp"
                 android:text="@string/how_are_you"
-                android:paddingEnd="5dp"
-                android:paddingStart="0dp"
                 android:textColor="@android:color/black"
-                android:paddingTop="10dp"
-                android:layout_alignParentStart="true"
+                android:paddingLeft="@dimen/activity_vertical_margin"
+                android:background="@drawable/shape_bg_incoming_bubble"
+                android:layout_marginStart="5dp"
                 android:layout_below="@id/message_text_1"
-                android:background="@drawable/bubble1"
                 android:backgroundTint="@android:color/white"
                 />
         </RelativeLayout>
