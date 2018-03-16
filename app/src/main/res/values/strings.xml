@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">WhatsAppClone</string>
+    <string name="action_settings">Settings</string>
+    <string name="view_contact">View Contact</string>
+    <string name="media">Media</string>
+    <string name="search">Search</string>
+    <string name="muteNotification">Mute Notification</string>
+    <string name="wallpaper">Wallpaper</string>
+    <string name="more">More</string>
+    <string name="type_a_message">Type a message.</string>
+    <string name="contactName">Contact Name</string>
+    <string name="status">Status</string>
+</resources>
