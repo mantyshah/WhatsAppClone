@@ -12,10 +12,10 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -72,12 +72,17 @@
             android:focusable="true"
             android:focusableInTouchMode="true"
             android:layout_width="0px"
-            android:layout_height="0px"/>
+            android:layout_height="0px"
+            android:layout_marginEnd="4dp"
+            android:layout_marginStart="4dp"
+            />
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:layout_below="@id/chatScrollView"
+            android:layout_height="60dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginBottom="5dp"
             android:orientation="horizontal"
             android:layout_alignParentBottom="true">
 
@@ -129,10 +134,13 @@
             <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:layout_centerInParent="true"
                 android:src="@mipmap/ic_mic_white_24dp"
-                android:background="@drawable/circlegreen"
                 android:layout_toEndOf="@id/chatMessage"
+                android:background="@drawable/circlegreen"
                 android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_alignParentEnd="true"
                 android:contentDescription="@string/type_a_message"
                 />
         </RelativeLayout>
